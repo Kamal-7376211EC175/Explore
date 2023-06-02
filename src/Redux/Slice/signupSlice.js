@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const signup = createAsyncThunk("user", async (data) => {
   const signupdata = fetch(
-    "https://quaint-jeans-fly.cyclic.app/authenticate/signup",
+    "https://clean-tweed-jacket-lion.cyclic.app/authenticate/signup",
     {
       method: "post",
       headers: { "Content-Type": "application/json" },

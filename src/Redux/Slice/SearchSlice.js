@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { Axios } from "../../component/Config/Config";
 export const SearchData = createAsyncThunk("Searchdata", async (data) => {
   const response = fetch(
-    `https://quaint-jeans-fly.cyclic.app/authenticate/search?placeTag=${data.tag}&placeName=${data.location}`
+    `https://clean-tweed-jacket-lion.cyclic.app/authenticate/search?placeTag=${data.tag}&placeName=${data.location}`
   ).then((res) => {
     return res.json();
   });
